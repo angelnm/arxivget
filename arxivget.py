@@ -26,6 +26,7 @@ def display_author(entry, params):
 	show_data('* LINK: \n{}.pdf'.format(link))
 	if params['download']:
 		download_file(link, title)
+	show_data(entry.find('{http://arxiv.org/schemas/atom}primary_category').attrib['term'])
 	show_data('')
 
 

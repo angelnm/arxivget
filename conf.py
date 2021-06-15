@@ -1,5 +1,6 @@
 parameters = {
 	'query': 'all:"machine translation" AND ("Reinforcement Learning" OR "Actor-Critic")',
-	'numpapers': 2,
+	#'query': 'cat:cs.CL',
+	'numpapers': 3,
 	'download':False, 
 }
